@@ -1,8 +1,8 @@
 # Omnipay: UnionPay
 
-[![Build Status](https://travis-ci.org/lokielse/omnipay-unionpay.png?branch=master)](https://travis-ci.org/lokielse/omnipay-unionpay)
-[![Latest Stable Version](https://poser.pugx.org/lokielse/omnipay-unionpay/version.png)](https://packagist.org/packages/lokielse/omnipay-unionpay)
-[![Total Downloads](https://poser.pugx.org/lokielse/omnipay-unionpay/d/total.png)](https://packagist.org/packages/lokielse/omnipay-unionpay)
+[![Build Status](https://travis-ci.org/topsystem/omnipay-unionpay.png?branch=master)](https://travis-ci.org/topsystem/omnipay-unionpay)
+[![Latest Stable Version](https://poser.pugx.org/topsystem/omnipay-unionpay/version.png)](https://packagist.org/packages/topsystem/omnipay-unionpay)
+[![Total Downloads](https://poser.pugx.org/topsystem/omnipay-unionpay/d/total.png)](https://packagist.org/packages/topsystem/omnipay-unionpay)
 
 **UnionPay driver for the Omnipay PHP payment processing library**
 
@@ -18,7 +18,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "lokielse/omnipay-unionpay": "^0.4"
+        "topsystem/omnipay-unionpay": "dev-master"
     }
 }
 ```
@@ -55,7 +55,7 @@ $ openssl pkcs12 -in cert.pfx  -nocerts -nodes | openssl rsa -out private_key.pe
 
 3. Get Cert ID
 $ openssl pkcs12 -in cert.pfx -clcerts -nokeys | openssl x509 -serial -noout // result hex eg: XXXXXXXXXX
-$ visit https://lokielse.github.io/hex2dec //Convert hex to decimal online
+$ visit https://topsystem.github.io/hex2dec //Convert hex to decimal online
 ```
 
 ### Consume
@@ -168,8 +168,8 @@ repository.
 ## Related
 
 - [Laravel-Omnipay](https://github.com/ignited/laravel-omnipay)
-- [Omnipay-Alipay](https://github.com/lokielse/omnipay-alipay)
-- [Omnipay-WechatPay](https://github.com/lokielse/omnipay-wechatpay)
+- [Omnipay-Alipay](https://github.com/topsystem/omnipay-alipay)
+- [Omnipay-WechatPay](https://github.com/topsystem/omnipay-wechatpay)
 
 ## Support
 
@@ -181,5 +181,5 @@ If you want to keep up to date with release anouncements, discuss ideas for the 
 or ask more detailed questions, there is also a [mailing list](https://groups.google.com/forum/#!forum/omnipay) which
 you can subscribe to.
 
-If you believe you have found a bug, please report it using the [GitHub issue tracker](https://github.com/lokielse/omnipay-unionpay/issues),
+If you believe you have found a bug, please report it using the [GitHub issue tracker](https://github.com/topsystem/omnipay-unionpay/issues),
 or better yet, fork the library and submit a pull request.

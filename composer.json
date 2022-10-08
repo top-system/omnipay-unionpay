@@ -1,5 +1,5 @@
 {
-  "name": "lokielse/omnipay-unionpay",
+  "name": "topsystem/omnipay-unionpay",
   "type": "library",
   "description": "UnionPay gateway for Omnipay payment processing library",
   "keywords": [
@@ -16,12 +16,12 @@
     "无跳转支付",
     "laravel"
   ],
-  "homepage": "https://github.com/lokielse/omnipay-unionpay",
+  "homepage": "https://github.com/topsystem/omnipay-unionpay",
   "license": "MIT",
   "authors": [
     {
-      "name": "Loki Else",
-      "email": "lokielse@gmail.com"
+      "name": "Top System",
+      "email": "admin@topsystem.cc"
     }
   ],
   "autoload": {
@@ -31,7 +31,7 @@
   },
   "require": {
     "omnipay/common": "^3.0",
-    "php-http/guzzle6-adapter": "*"
+    "php-http/guzzle7-adapter": "*"
   },
   "require-dev": {
     "omnipay/tests": "^3.0",
